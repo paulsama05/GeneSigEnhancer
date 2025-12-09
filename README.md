@@ -30,7 +30,7 @@ lsf.str("package:GeneSigEnhancer")
 ```
 For more details, please see the help documentation for each object.
  
-The data frame object is derived from a raw .csv files, which can be retrieved using:
+The data frame object is derived from a raw .csv file, which can be retrieved using:
 ``` r
 system.file("extdata","gene_signature_set.csv",package = "GeneSigEnhancer")
 ```
