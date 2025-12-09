@@ -39,6 +39,7 @@ There are four other retrievable files: 1 raw .csv (gene_signature.csv) and 4 an
 
 ## Requirements
 
+The "GSVA" package must be installed from Bioconductor. The `sig2target` and `target2sig` functions will check for this and attempt to install it, but it is preferred to install beforehand.
 
 For the `sigImport` function, all .csv files must be in the current working directory.
 
